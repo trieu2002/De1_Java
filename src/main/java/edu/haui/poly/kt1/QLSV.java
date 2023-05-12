@@ -57,6 +57,7 @@ public class QLSV {
     }
     public void timKiem(){
         
+        System.out.println("Nhap ma sinh vien :");
         String masv=s.nextLine();
         for (SINHVIEN sinhvien : list) {
             if(sinhvien.getMaSV().equals(masv)){
