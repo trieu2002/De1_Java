@@ -18,6 +18,7 @@ public class SINHVIEN extends NGUOI implements TAIKHOAN {
         super(hoTen, ngaySinh, gioiTinh, cccd);
         this.maSV = maSV;
         this.nganhNghe = nganhNghe;
+        nhapTaiKhoan();
     }
 
     @Override
